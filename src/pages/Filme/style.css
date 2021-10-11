@@ -1,0 +1,71 @@
+h1 {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.filme-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+
+.filme-info img {
+  border-radius: 20px;
+}
+
+.filme-info button {
+  margin-right: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  outline: none;
+  padding: 12px;
+  transition: all 0.5s;
+  background: #8e0e00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+.filme-info button:hover {
+  color: #000;
+}
+
+.filme-info a:hover {
+  color: #000;
+}
+
+.filme-info a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.rating img {
+  width: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sinopse {
+  color: #fff;
+  margin-bottom: 20px;
+}
